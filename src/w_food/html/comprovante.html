@@ -1,0 +1,85 @@
+<html lang="pt-br">
+    <head>
+        
+        <style>
+            .bg
+            {
+                position: absolute;
+                background-color: aqua;
+                
+            }
+            .main
+            {
+                
+                text-align: center;
+                align-items: center;
+                padding: 0.5px;
+                
+                font-size: 15px;
+                
+            }
+            .main h1
+            {
+                background-color: black;
+                color: white;
+            }
+            .main table
+            {
+                position: relative;
+
+                color: black;
+                background-color: white;
+                left: 80;
+                
+                border-bottom-color: black;      
+                border-top-color: transparent;
+                border-left-color: transparent;
+                border-right-color: transparent;
+                
+            }
+        
+        </style>
+    </head>
+    <body>
+
+        <div class="bg"></div>
+        
+        <div class="main">
+            <h1>Whats²FOOD</h1>
+            <h2>Comprovante de Pagamento</h2>
+            <h4>_DATA</h4>
+            
+            <strong>Cliente: _NOMEDOCLIENTE</strong><BR>
+            <strong>CPF: _CPFDOCLIENTE</strong><BR>
+            <strong>VISITAS:_VISITASDOCLIENTE</strong><BR>
+
+            <br>
+
+            <table border=1px>
+            <tr>
+                <td>Codigo</td>
+                <td>Produto</td>
+                <td>Quantidade</td>
+                <td>Valor</td>
+                <td>Desconto</td>
+                <td>Total</td>
+             </tr>
+             <tr>
+                <td>_CODIGO</td>
+                <td>_PROTUDO</td>
+                <td>_QUATIDADE</td>
+                <td>_VALOR</td>
+                <td>_DESCONTO</td>
+                <td>_TOTAL</td>
+             </tr>
+                <!--_LINHA-->
+            </table>
+            
+            
+            <h3>Total: _TOTALDACOMPRA</h3>
+            Atendido por: _NOMEDOFUNCIONARIO
+        </div>
+            
+    </body>
+
+</html>
